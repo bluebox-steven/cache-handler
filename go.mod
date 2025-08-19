@@ -1,4 +1,4 @@
-module github.com/caddyserver/cache-handler
+module github.com/bluebox-steven/cache-handler
 
 go 1.24
 

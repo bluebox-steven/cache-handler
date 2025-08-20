@@ -10,7 +10,7 @@ require (
 	github.com/darkweak/storages/core v0.0.15
 )
 
-replace github.com/darkweak/souin => github.com/bluebox-steven/souin v0.0.0-20250820111731-2a58b94c8dcd
+replace github.com/darkweak/souin => github.com/bluebox-steven/souin v0.0.0-20250820123140-2a58b94c8dcd
 
 require (
 	cel.dev/expr v0.19.1 // indirect

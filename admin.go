@@ -35,19 +35,26 @@ func (adminAPI) CaddyModule() caddy.ModuleInfo {
 }
 
 func (a *adminAPI) handleAPIEndpoints(writer http.ResponseWriter, request *http.Request) error {
-	if a.InternalEndpointHandlers != nil {
-		for k, handler := range *a.InternalEndpointHandlers.Handlers {
-			if strings.Contains(request.RequestURI, k) {
-				handler(writer, request)
-				return nil
-			}
-		}
-	}
+       a.logger.Debugf("Souin adminAPI: Received request URI: %s", request.RequestURI)
+       if a.InternalEndpointHandlers != nil {
+	       a.logger.Debugf("Souin adminAPI: InternalEndpointHandlers is not nil, checking handlers map")
+	       for k, handler := range *a.InternalEndpointHandlers.Handlers {
+		       a.logger.Debugf("Souin adminAPI: Checking handler key: %s", k)
+		       if strings.Contains(request.RequestURI, k) {
+			       a.logger.Debugf("Souin adminAPI: Matched handler for key: %s", k)
+			       handler(writer, request)
+			       return nil
+		       }
+	       }
+       } else {
+	       a.logger.Debugf("Souin adminAPI: InternalEndpointHandlers is nil")
+       }
 
-	return caddy.APIError{
-		HTTPStatus: http.StatusNotFound,
-		Err:        fmt.Errorf("resource not found: %v", request.URL.Path),
-	}
+       a.logger.Debugf("Souin adminAPI: No handler matched for URI: %s", request.RequestURI)
+       return caddy.APIError{
+	       HTTPStatus: http.StatusNotFound,
+	       Err:        fmt.Errorf("resource not found: %v", request.URL.Path),
+       }
 }
 
 // Provision sets up the adminAPI module.

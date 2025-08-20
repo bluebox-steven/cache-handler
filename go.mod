@@ -6,7 +6,7 @@ toolchain go1.24.2
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.0
-	github.com/darkweak/souin v1.7.7
+	github.com/bluebox-steven/souin v1.7.7
 	github.com/darkweak/storages/core v0.0.15
 )
 

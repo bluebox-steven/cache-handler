@@ -2,9 +2,9 @@ package httpcache
 
 import (
 	"github.com/caddyserver/caddy/v2"
-	"github.com/darkweak/souin/configurationtypes"
-	"github.com/darkweak/souin/pkg/storage/types"
-	"github.com/darkweak/souin/pkg/surrogate/providers"
+	"github.com/bluebox-steven/souin/configurationtypes"
+	"github.com/bluebox-steven/souin/pkg/storage/types"
+	"github.com/bluebox-steven/souin/pkg/surrogate/providers"
 	"github.com/darkweak/storages/core"
 )
 

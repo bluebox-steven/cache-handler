@@ -132,8 +132,8 @@ github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6N
 github.com/creack/pty v1.1.7/go.mod h1:lj5s0c3V2DBrqTV7llrYr5NG6My20zk30Fl46Y7DoTY=
 github.com/darkweak/go-esi v0.0.5 h1:b9LHI8Tz46R+i6p8avKPHAIBRQUCZDebNmKm5w/Zrns=
 github.com/darkweak/go-esi v0.0.5/go.mod h1:koCJqwum1u6mslyZuq/Phm6hfG1K3ZK5Y7jrUBTH654=
-github.com/darkweak/souin v1.7.7 h1:pIj/cknEsV/+xgq74VOGE1+0yy0dNnt5I6HGRczJlKk=
-github.com/darkweak/souin v1.7.7/go.mod h1:jp4dk3fSv2mrHOl3HRfvV+Rxi/EwajBP6ROux+8oCac=
+github.com/bluebox-steven/souin v1.7.7 h1:pIj/cknEsV/+xgq74VOGE1+0yy0dNnt5I6HGRczJlKk=
+github.com/bluebox-steven/souin v1.7.7/go.mod h1:jp4dk3fSv2mrHOl3HRfvV+Rxi/EwajBP6ROux+8oCac=
 github.com/darkweak/storages/core v0.0.15 h1:LnCvkWiP2ngQ2s5br/Qnw/jhAP/vlmsZOWbU1fJTUno=
 github.com/darkweak/storages/core v0.0.15/go.mod h1:3qJqrenCLpu+0bWPOAq36CmGpzL3SGWAz6KGZGnur1U=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

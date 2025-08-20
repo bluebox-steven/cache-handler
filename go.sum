@@ -91,6 +91,8 @@ github.com/aws/smithy-go v1.20.2/go.mod h1:krry+ya/rV9RDcV/Q16kpu6ypI4K2czasz0NC
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
+github.com/bluebox-steven/souin v0.0.0-20250812092955-b2a08bf1141e h1:nAnigr/Q/V0ZU2BoXcreKiNUtnTDF9kC7fAi/z7pe2M=
+github.com/bluebox-steven/souin v0.0.0-20250812092955-b2a08bf1141e/go.mod h1:jp4dk3fSv2mrHOl3HRfvV+Rxi/EwajBP6ROux+8oCac=
 github.com/bradfitz/go-smtpd v0.0.0-20170404230938-deb6d6237625/go.mod h1:HYsPBTaaSFSlLx/70C2HPIMNZpVV8+vt/A+FMnYP11g=
 github.com/buger/jsonparser v0.0.0-20181115193947-bf1c66bbce23/go.mod h1:bbYlZJ7hK1yFx9hf58LP0zeX7UjIGs20ufpu3evjr+s=
 github.com/caddyserver/caddy/v2 v2.10.0 h1:fonubSaQKF1YANl8TXqGcn4IbIRUDdfAkpcsfI/vX5U=
@@ -132,8 +134,6 @@ github.com/cpuguy83/go-md2man/v2 v2.0.6/go.mod h1:oOW0eioCTA6cOiMLiUPZOpcVxMig6N
 github.com/creack/pty v1.1.7/go.mod h1:lj5s0c3V2DBrqTV7llrYr5NG6My20zk30Fl46Y7DoTY=
 github.com/darkweak/go-esi v0.0.5 h1:b9LHI8Tz46R+i6p8avKPHAIBRQUCZDebNmKm5w/Zrns=
 github.com/darkweak/go-esi v0.0.5/go.mod h1:koCJqwum1u6mslyZuq/Phm6hfG1K3ZK5Y7jrUBTH654=
-github.com/darkweak/souin v1.7.7 h1:pIj/cknEsV/+xgq74VOGE1+0yy0dNnt5I6HGRczJlKk=
-github.com/darkweak/souin v1.7.7/go.mod h1:jp4dk3fSv2mrHOl3HRfvV+Rxi/EwajBP6ROux+8oCac=
 github.com/darkweak/storages/core v0.0.15 h1:LnCvkWiP2ngQ2s5br/Qnw/jhAP/vlmsZOWbU1fJTUno=
 github.com/darkweak/storages/core v0.0.15/go.mod h1:3qJqrenCLpu+0bWPOAq36CmGpzL3SGWAz6KGZGnur1U=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=

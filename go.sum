@@ -91,8 +91,8 @@ github.com/aws/smithy-go v1.20.2/go.mod h1:krry+ya/rV9RDcV/Q16kpu6ypI4K2czasz0NC
 github.com/beorn7/perks v0.0.0-20180321164747-3a771d992973/go.mod h1:Dwedo/Wpr24TaqPxmxbtue+5NUziq4I4S80YR8gNf3Q=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
-github.com/bluebox-steven/souin v0.0.0-20250820110519-9898d97a5572 h1:USIc5jLao8INVwgoE0aVZXMMd9Eqh/ixh0C9SjXQaFE=
-github.com/bluebox-steven/souin v0.0.0-20250820110519-9898d97a5572/go.mod h1:Tm4yCNXww/7hMiJw96uVx21BTgjnltAtVLUXkZcKMGU=
+github.com/bluebox-steven/souin v0.0.0-20250820123140-2a58b94c8dcd h1:FMUuFCT4D30XuVMQDHZwCgynv2I69nX5JBURMfD4dYc=
+github.com/bluebox-steven/souin v0.0.0-20250820123140-2a58b94c8dcd/go.mod h1:jp4dk3fSv2mrHOl3HRfvV+Rxi/EwajBP6ROux+8oCac=
 github.com/bradfitz/go-smtpd v0.0.0-20170404230938-deb6d6237625/go.mod h1:HYsPBTaaSFSlLx/70C2HPIMNZpVV8+vt/A+FMnYP11g=
 github.com/buger/jsonparser v0.0.0-20181115193947-bf1c66bbce23/go.mod h1:bbYlZJ7hK1yFx9hf58LP0zeX7UjIGs20ufpu3evjr+s=
 github.com/caddyserver/caddy/v2 v2.10.0 h1:fonubSaQKF1YANl8TXqGcn4IbIRUDdfAkpcsfI/vX5U=

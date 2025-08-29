@@ -765,6 +765,7 @@ func parseConfiguration(cfg *Configuration, h *caddyfile.Dispenser, isGlobal boo
 					cfg.DefaultCache.TTL.Duration = ttl
 				}
 			case "disable_coalescing":
+				cfg.GetLogger().Debug("disable_coalescing directive found, setting DisableCoalescing to true")
 				cfg.DefaultCache.DisableCoalescing = true
 			case "disable_surrogate_key":
 				cfg.SurrogateKeyDisabled = true
